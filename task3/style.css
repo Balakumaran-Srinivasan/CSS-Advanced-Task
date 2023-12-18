@@ -1,0 +1,13 @@
+.heading table tr:first-child{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.heading table tr:nth-of-type(6){
+    font-weight: bold;
+    
+}
+.heading table tr:nth-of-type(8){
+    font-weight: bold;
+    
+}
+ 

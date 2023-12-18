@@ -1,0 +1,47 @@
+ .logo{
+    float: left;
+    width: 50%;
+    height: 100px;
+ }
+ .tab1 {
+    float: right;
+    clear:both;
+ }
+ .tab1 td a{
+    text-decoration: none;
+ }
+ .tab {
+    width: 45%;
+   }
+.tab1 td{
+    padding-left: 40px;
+     
+   }
+.tab1 td:nth-of-type(4){
+   padding-left: -40px;
+   padding-right: 40px;
+}
+ .tab tr td:last-child{ 
+    padding-left:5px;
+    background-color:orangered;
+ }
+ .tab2{
+    width: 90%;
+ }
+ .tab2 tr td:last-child{
+    width: 50%;
+ }
+ p:last-child{
+    display: inline;
+    font-size: 1.2rem;
+    padding:5px;
+    background-color:orangered;
+ }
+ .para1{
+    font-size: 2.5rem;
+ }
+body{
+    background-image: url(https://themewagon.github.io/courier/v1.0.0/assets/img/gallery/bg.png);
+   background-size: cover;
+   background-color:rgba(255, 255, 198, 0.8);
+}    

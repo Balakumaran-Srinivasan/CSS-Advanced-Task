@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width:90vw;
+    height:90vh;
+    background: linear-gradient(to right,rgb(226, 54, 54),violet,aqua);
+    position: relative;
+    border-radius: 50px;
+    margin:5%;
+}
+.left{
+    width:25%;
+    height: 80%;
+    background-color: black;
+    border-radius: 20px;
+    top:70px;
+    left:10%;
+    
+    clear: both; 
+    position:absolute;
+}
+.left table{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 1.8rem;
+  /* color:linear-gradient(to right,rgb(222, 8, 209,),yellow); */
+     width:20%;
+    margin-top: 20px;
+    margin-left:50px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius:50%;
+}
+.left {
+    border-radius: 20px;
+}
+.right{
+    width:60%;
+    height: 80%;
+    background-color: black;
+    border-radius: 20px;
+    position:absolute;
+    top:70px;
+    left:38%;
+}
+.right{
+    color: whitesmoke;
+    font-size: 1.8rem;
+}
+.table1{
+    margin-top:10%
+}
+.table2{
+    margin-top:10%
+}
+.table1 tr td:nth-of-type(2){
+    padding-left: 30px;
+}
+.left p{
+    background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44,#f5de17,#f5de17);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.right p{
+    background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

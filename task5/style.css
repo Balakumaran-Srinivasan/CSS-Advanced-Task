@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #57C5B6;
+    width: 100vw;
+    height: 100vh;
+}
+header div p{
+    color: whitesmoke;
+    font-size: 1.8rem;
+    float: left;
+    width: 20%;
+    margin-left: 15%;
+    clear: both;
+}
+header nav .tab1 tr {
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+header nav{
+    float: right;
+    width: 60%;
+}
+header nav table{
+    width: 100%;
+}
+header nav table tr td{
+    width: 100%;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+main{
+    clear: both;
+    color: whitesmoke;
+}
+ span{
+    font-size: 5rem;
+}
+.tab2 tr:first-child td p{
+    font-size: 2.5rem;
+}
+footer{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+.tab2{
+    position:absolute;
+    top:28%;
+    left:40%;  
+}
+.tab2 tr:nth-of-type(2) td p{
+    font-size: 2.5rem;
+}
+.tab3{
+    width: 80%;
+    position: absolute;
+    top:52%;
+    left: 20%;
+}
+footer div p{
+    width:300px;
+    border: 2px solid whitesmoke;
+    padding:10px 50px;  
+}
+footer{
+    position: absolute;
+    top:62%;
+    left:40%;
+}

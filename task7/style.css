@@ -1,0 +1,53 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   height: 100vh;
+   width: 100vw;
+    /* background:linear-gradient(0deg,#FF52A2, #6528F7); */
+    background:conic-gradient( #FF52A2,#F31559,#D7BBF5,#FFFD8C,#FF52A2);
+  }
+.imagedown1 img{
+    width:225px;
+    height: 200px;
+    border-radius: 10px;
+}
+.imagedown2 img{
+    width:235px;
+    height: 200px;
+}
+.imageup1{
+    position: absolute;
+    top: 200px;
+    left:500px;
+}
+.imageup2{
+    position: absolute;
+    top: 200px;
+    left:745px;
+}
+.imagedown1{
+    position: absolute;
+    top: 440px;
+    left:500px;
+}
+.imagedown2{
+    position: absolute;
+    top: 430px;
+    left:745px;
+}
+.imageup1 img{ 
+    border-radius: 100px 100px 5px 100px;
+}
+.imageup2 img{ 
+    border-radius: 100px 100px 100px 5px;
+}
+.imagedown1 img{
+    border-radius: 70px 5px 100px 100px;
+}
+.imagedown2 img{
+    border-radius: 5px 100px 100px 100px;
+}
+ 
